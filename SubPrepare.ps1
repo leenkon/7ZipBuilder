@@ -6,7 +6,7 @@ param(
 )
 
 $workDir = $PSScriptRoot
-$resDir = "$workDir\Resources"
+$resDir = "$workDir\..\Resources"
 
 # 拷贝资源文件
 Copy-Item -Force -Path "$resDir\Format7zF.rc" -Destination "$BuildDirectory\CPP\7zip\Bundles\Format7zF\resource.rc"
