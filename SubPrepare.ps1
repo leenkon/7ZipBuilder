@@ -1,6 +1,6 @@
 
 $workDir = $PSScriptRoot
-$resDir = "$workDir\..\Resources"
+$resDir = "$workDir\Resources"
 
 # 拷贝图标
 Copy-Item -Force -Recurse -Path "$resDir\FileIcons\*.ico" -Destination "$BuildDirectory\CPP\7zip\Archive\Icons"
