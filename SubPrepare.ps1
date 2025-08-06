@@ -6,7 +6,7 @@ param(
 )
 
 $workDir = $PSScriptRoot
-$resDir = "$workDir\..\Resources"
+$resDir = "$workDir\Resources"
 $buildDir = "$workDir\$BuildVersion"
 
 # 拷贝资源文件
